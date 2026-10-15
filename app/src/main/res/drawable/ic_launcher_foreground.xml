@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Security Shield Contour -->
+    <path
+        android:pathData="M54,22 L78,32 C78,54 67,69 54,82 C41,69 30,54 30,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="22"
+                android:endX="78"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1E293B" />
+                <item android:offset="1.0" android:color="#0F172A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Glowing Shield Border -->
+    <path
+        android:pathData="M54,22 L78,32 C78,54 67,69 54,82 C41,69 30,54 30,32 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#10B981"
+        android:fillColor="#00000000" />
+    
+    <!-- Stylized "A" Triangle Structure -->
+    <path
+        android:pathData="M54,28 L70,64 L62,64 L57,52 L51,52 L46,64 L38,64 Z"
+        android:fillColor="#00E5FF" />
+    <!-- Horizontal Crossbar / Pay Flash -->
+    <path
+        android:pathData="M44,56 L64,56 L61,61 L41,61 Z"
+        android:fillColor="#34D399" />
+    
+    <!-- Rupee '₹' Central Emblem in the Shield/A Core -->
+    <!-- Top bar -->
+    <path
+        android:pathData="M48,40 L60,40"
+        android:strokeWidth="2.0"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <!-- Second bar -->
+    <path
+        android:pathData="M48,44 L58,44"
+        android:strokeWidth="2.0"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <!-- Rupee curve & stem -->
+    <path
+        android:pathData="M51,40 C56,40 57,47 51,49 L58,58"
+        android:strokeWidth="2.0"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+    
+    <!-- Lock security dot -->
+    <path
+        android:pathData="M54,70m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:fillColor="#10B981" />
+</vector>
